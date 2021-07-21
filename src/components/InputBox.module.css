@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap");
+
+.input {
+  margin-top: 1.1em;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.input > input {
+  width: 35rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: hsl(240, 1%, 39%);
+  padding: 0.6em 1.1em;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+.button {
+  border: none;
+  outline: none;
+  background: #ff3f00;
+  padding: 0.6em 2em;
+  margin-top: 1em;
+  color: white;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s ease-out;
+}
+
+.button:hover,
+.button:active {
+  background: #cd113b;
+  transform: scale(1.05);
+}
+
+@media (max-width: 615px) {
+  .input > input {
+    width: 100%;
+    font-size: 1.3rem;
+  }
+}

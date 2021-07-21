@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap");
+
+.header {
+  display: flex;
+  font-family: "Josefin Sans", sans-serif;
+  align-items: center;
+  justify-content: center;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  letter-spacing: 0.3em;
+  color: white;
+}
+
+@media (max-width: 615px) {
+  .app-view {
+    width: 80%;
+  }
+}
+
+@media (max-width: 390px) {
+  .header {
+    width: 100%;
+  }
+
+  .header h1 {
+    font-size: 2rem;
+  }
+}

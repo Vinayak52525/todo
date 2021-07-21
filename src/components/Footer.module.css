@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap");
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.8rem;
+  font-family: "Josefin Sans", sans-serif;
+  color: grey;
+  z-index: 1;
+  background: white;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  padding: 1em 0.8em;
+  border-radius: 5px;
+  margin-top: 0.2em;
+}
+
+.footer > div {
+  display: flex;
+  gap: 1em;
+}
+
+.footer p {
+  cursor: pointer;
+}
+
+.footer p:hover {
+  color: black;
+}
+
+.selectedState {
+  color: #31326f;
+  font-weight: 700;
+}
+
+@media (max-width: 450px) {
+  .footer {
+    flex-direction: column;
+    gap: 1.5em;
+    font-size: 0.8rem;
+  }
+}

@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap");
+
+.task {
+  display: flex;
+  align-items: center;
+  font-family: "Josefin Sans", sans-serif;
+  padding: 1em 0.4em;
+  background: white;
+  color: rgb(82, 78, 78);
+}
+
+.checkBoxContainer {
+  flex-basis: 8%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  /* background: chartreuse; */
+}
+
+.checkBoxContainer > div {
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 0.1px solid rgb(162, 152, 252);
+}
+
+.task h1 {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.checked {
+  background: linear-gradient(0deg, hsl(192, 100%, 67%), hsl(280, 87%, 65%));
+}
+
+.isCompleted {
+  color: hsl(280, 87%, 65%);
+}
+
+@media (max-width: 360px) {
+  .task h1 {
+    font-size: 1rem;
+    margin-left: 0.3em;
+  }
+}

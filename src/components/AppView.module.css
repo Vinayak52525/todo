@@ -1,0 +1,14 @@
+.app-view {
+  position: fixed;
+  display: flex;
+  top: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  flex-direction: column;
+}
+
+@media (max-width: 615px) {
+  .app-view {
+    width: 80%;
+  }
+}

@@ -1,0 +1,21 @@
+.allTasks {
+  margin-top: 2em;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  overflow: scroll;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  background: grey;
+  gap: 1px;
+  max-height: 25rem;
+  overflow-x: hidden;
+}
+
+.allTasks::-webkit-scrollbar {
+  width: 2px;
+  background: transparent;
+}
+
+.allTasks::-webkit-scrollbar-thumb {
+  background: blue;
+}
